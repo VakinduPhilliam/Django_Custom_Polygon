@@ -5,4 +5,6 @@ Python/Django project that defines custom polygons as their "service area" and a
 
 The application also contains JSON REST API endpoints that allow backend administrators to create, update, delete, and retrieve information about service providers.
 
+Simply said, the application provides a Logistics API for transportation suppliers to keep track of client locations.
+
 Compiled and presented by Vakindu Philliam.
