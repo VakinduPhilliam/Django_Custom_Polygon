@@ -29,4 +29,6 @@ Application Requirements:
 
 > Pillow==4.1.1
 
+The above system specifications have to be met inorder for the application to work flawlessly.
+
 Compiled and presented by Vakindu Philliam.
