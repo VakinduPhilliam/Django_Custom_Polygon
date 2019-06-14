@@ -1,5 +1,5 @@
 # Python/Django_Custom_Logistics_Polygon
-Backend Polygon/Django Custom Logistics Polygon “Service Area”.  
+A backend Polygon/Django Custom Logistics Polygon “Service Area”.  
 
 Python/Django project that defines custom polygons as their "service area" and allows transportation companies to define and alter their polygons whenever they want, eliminating the need for their employees to do this gruesome work. 
 
