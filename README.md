@@ -7,4 +7,29 @@ The application also contains JSON REST API endpoints that allow backend adminis
 
 Simply said, the application provides a Logistics API for transportation suppliers to keep track of client locations.
 
+Requirements:
+
+Django>=1.11.21
+
+psycopg2==2.7.1
+
+redis==2.10.5
+
+
+djangorestframework>=3.9.1
+
+djangorestframework_gis==0.11.2
+
+django_filter==1.0.4
+
+
+django-phonenumber-field==1.3.0
+
+django_money==0.11.2
+
+py_moneyed==0.7.0
+
+
+Pillow==4.1.1
+
 Compiled and presented by Vakindu Philliam.
