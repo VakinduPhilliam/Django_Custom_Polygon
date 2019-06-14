@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  web:
+    build: ./sources/.
+    ports:
+      - "127.0.0.1:8000:8000"
+    networks:
+      - front-tier
+      - back-tier
+    env_file: .env
+    command: gunicorn _project_.wsgi:application -w 2 -b :8000 --capture-output --enable-stdio-inheritance --log-level=info --access-logfile=- --log-file=-
+    depends_on:
+      - postgres
+      - redis
