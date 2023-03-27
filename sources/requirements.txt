@@ -2,7 +2,7 @@ Django>=1.11.21
 
 psycopg2==2.7.1
 
-redis==2.10.5
+redis==4.5.3
 
 
 djangorestframework>=3.9.1
